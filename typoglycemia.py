@@ -1,0 +1,1 @@
+print((s:=' ').join(map(lambda w:(w[0]+''.join(__import__('random').sample(w[1:-1],len(w)-2))+w[-1:])if len(w)>1 else w,'the only important thing is that the first and last letter be at the right place'.split(s)))+'.')
